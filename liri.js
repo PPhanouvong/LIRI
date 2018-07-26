@@ -154,19 +154,6 @@ function omdb(movieName) {
 
 // False SIRI function "Do what it says"
 // function fakeSiri() {
-    
-//     fs.readFile("random.txt", "utf8", function (error, data) {
-//         console.log(data);
-//         var dataArr = data.split(",");
-//         if (data.length === 2) {
-//             pick(data[0], data[1]);
-//         }
-//         else if (data.length === 1) {
-//             pick(data[0]);
-//         }
-
-//     });
-// }
 
 function fakeSiri() {
     fs.readFile('random.txt', 'utf8', function (error, data) {
