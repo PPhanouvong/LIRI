@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/PPhanouvong/LIRI/issues"
   },
-  "homepage": "https://github.com/PPhanouvong/LIRI#readme"
+  "homepage": "https://github.com/PPhanouvong/LIRI#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.87.0",
+    "spotify": "^0.3.0"
+  }
 }
